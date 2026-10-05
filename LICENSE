@@ -1,0 +1,41 @@
+Copyright (c) 2026 Radon. All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to run,
+execute, and use the Software solely in a Minecraft client or server environment,
+subject to the following conditions:
+
+1. NO MODIFICATION:
+   You may not decompile, reverse engineer, disassemble, modify, adapt,
+   translate, or create derivative works based on this Software or its source code,
+   in whole or in part, without explicit prior written permission from the copyright holder.
+
+2. NO REDISTRIBUTION OR MIRRORING:
+   Except as explicitly permitted in Section 3 (Modpacks), you may not redistribute,
+   re-upload, publish, sublicense, rent, sell, or mirror the Software or its compiled
+   binaries (.jar) on any website, server, launcher, repository, or distribution channel.
+   Downloads must originate strictly from official RadonMC channels (e.g., Modrinth,
+   GitHub Releases).
+
+3. MODPACK INCLUSION:
+   You are expressly permitted to include this Software in public or private
+   Minecraft modpacks, provided that:
+   a. The modpack is distributed via platforms that leverage official platform APIs
+      or dependency management (such as Modrinth or CurseForge) without re-hosting
+      or altering the raw binary, OR
+   b. The Software remains unmodified, attribution to RadonMC is clearly provided,
+      and no monetization or paywall is placed directly behind access to this Software.
+
+4. COMMERCIAL USE & MONETIZATION:
+   You may not sell the Software, charge users directly for access to the Software,
+   or include it in paid commercial software packages without prior written consent.
+   Running the Software on a monetized or public Minecraft server (e.g., donations,
+   cosmetics) is permitted, provided the server complies with the Minecraft EULA.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

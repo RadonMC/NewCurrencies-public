@@ -1,0 +1,16 @@
+name: Feature request
+description: Suggest an idea or an economy mod to support
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+      description: Describe the idea and the problem it solves.
+    validations:
+      required: true
+  - type: input
+    id: economy
+    attributes:
+      label: Economy mod (if it is about one)
+      description: Name and link of the mod. Economy mods that support Minecraft 26.x and have a public API are the easiest to add.

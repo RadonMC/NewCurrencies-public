@@ -1,0 +1,62 @@
+name: Bug report
+description: Something does not work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please check the [changelog](https://github.com/RadonMC/NewCurrencies-public/blob/main/CHANGELOG.md) first: the problem may already be fixed in a newer version.
+  - type: input
+    id: mod_version
+    attributes:
+      label: Mod version
+      description: The number in the jar name, for example `1.1.1`.
+    validations:
+      required: true
+  - type: dropdown
+    id: loader
+    attributes:
+      label: Loader
+      options:
+        - Fabric
+        - NeoForge
+    validations:
+      required: true
+  - type: dropdown
+    id: minecraft
+    attributes:
+      label: Minecraft version
+      options:
+        - 26.3
+        - 26.2
+        - 26.1.2
+        - 26.1.1
+        - "26.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: economy
+    attributes:
+      label: Economy mod
+      description: The mod the ATM uses for balances.
+      options:
+        - Savs Common Economy
+        - EconomyCraft
+        - Another mod using the Common Economy API
+        - None
+        - Not related to the ATM
+    validations:
+      required: true
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Paste `logs/latest.log` (or a link to it on mclo.gs). Add the crash report if the game crashed.
+      render: text
